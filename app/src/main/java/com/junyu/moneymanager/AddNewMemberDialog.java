@@ -32,6 +32,7 @@ public class AddNewMemberDialog extends Dialog {
     private DatabaseReference fireDb;
     private String groupId = "";
     private String groupName = "";
+    private String test = "";
 
     @OnClick(R.id.inviteFriend)
     public void submitAdding() {
